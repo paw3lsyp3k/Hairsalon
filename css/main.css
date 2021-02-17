@@ -183,8 +183,9 @@ nav ul li a {
   height: 3vmax;
   float: left;
   background-color: white;
-  color: black;
 }
+
+
 
 .w1btn1text,
 .w1btn2text {
@@ -214,6 +215,17 @@ nav ul li a {
   margin-left: 14%;
   background-color: #ecabed;
 }
+
+.w1button2:hover {
+  transition: 0.5s;
+  background-color: rgb(202, 96, 204);
+}
+
+.w1button1:hover {
+ transition: 0.8s;
+ background-color: rgb(180,180,180);
+}
+
 
 .w1btn1text {
   color: black;
@@ -299,6 +311,12 @@ WRAPPER2
   box-shadow: 0.8vmax 0.8vmax 0px 1px rgba(236, 171, 237, 0.75);
 }
 
+.w2button:hover {
+  transition: 0.7s;
+  box-shadow: unset;
+  background-color: #ecabed;
+}
+
 .w2buttontext {
   text-align: center;
   line-height: 2.8vmax;
@@ -307,16 +325,6 @@ WRAPPER2
   color: black;
 }
 
-.w1button1:hover,
-.w1button2:hover,
-.w2button:hover,
-.w4button:hover,
-.w5button:hover,
-.w7button:hover,
-.w8button:hover {
-  transform: rotate(-5deg);
-  transition: 0.3s;
-}
 
 /*
 ////////
@@ -405,10 +413,10 @@ WRAPPER4
 */
 
 .wrapper4 {
-  margin-top: 3vmax;
+  margin-top: 6vmax;
   width: 100%;
-  height: 30vh;
-  padding-top: 1vmax;
+  height: 20vmax;
+  padding-top: 2vmax;
   background-color: rgba(236, 171, 237, 0.5);
 }
 
@@ -512,6 +520,11 @@ WRAPPER5
   margin-top: 5vmax;
   margin-right: 45%;
   background-color: black;
+}
+
+.w5button:hover {
+  transition: 0.5s;
+  background-color: rgb(202, 96, 204);
 }
 
 .w5btn {
@@ -650,6 +663,11 @@ WRAPPER8
   background-color: #ecabed;
   margin: auto;
   margin-top: 3vmax;
+}
+
+.w8button:hover {
+  transition: 0.5s;
+  background-color: rgb(202, 96, 204);
 }
 
 .w8btn {
@@ -1189,12 +1207,13 @@ FOOTER
   .w1container {
     margin-top: 15%;
     text-align: center;
+    
   }
   .w1section {
     height: 15vmax;
-    width: 60%;
+    width: 70%;
     margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 15%;
   }
   .w1button1 {
     width: 100%;
@@ -1221,6 +1240,11 @@ FOOTER
   }
   .w2section {
     margin-top: 10%;
+    height: unset;
+    background: aquamarine;
+  }
+  .w2description {
+    margin-top: -14%;
   }
   .w2button {
     margin-top: 15%;

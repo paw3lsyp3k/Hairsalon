@@ -39,16 +39,15 @@
 
 .covidrow {
   width: 100%;
-  height: 3vmax;
-  border-radius: 20px;
+  height: 4vmax;
   margin-top: 1vmax;
-  background-color: rgba(236, 171, 237, 0.4);
+  border: 2px solid #ecabed;
 }
 
 .covidask {
   height: 3vmax;
   margin-left: 10%;
-  line-height: 3vmax;
+  line-height: 4vmax;
   font-size: 1.5vmax;
   float: left;
 }
@@ -72,7 +71,7 @@
   background-size: cover;
   transform: rotate(90deg);
   float: right;
-  margin-top: 0.5vmax;
+  margin-top: 1vmax;
   margin-right: 2vmax;
   display: block;
   cursor: pointer;
@@ -99,11 +98,12 @@
   background-color: white;
   margin: auto;
   padding: 2vmax;
+  text-align: center;
   font-size: 1vmax;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   display: none;
-  border: 0.2vmax solid #ecabed;
+  background-color: rgba(236,171,237,0.4);
   border-top: none;
 }
 
