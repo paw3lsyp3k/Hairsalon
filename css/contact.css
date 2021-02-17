@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.spacer {
+  width: 100%;
+  height: 12vmax;
+  background-image: url(../img/aga1.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 2vmax;
+}
+
+.spacerblack {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.spacerblack h1 {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  font-weight: 400;
+  font-size: 4.5vmax;
+  color: white;
+}
+
+.wrapper1 {
+  width: 80%;
+  height: 25vmax;
+  padding-top: 3vmax;
+  margin: auto;
+}
+
+.w1section1 {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.w1section1 h1 {
+  font-weight: 400;
+  font-size: 2vmax;
+  margin-bottom: 2vmax;
+}
+
+.w1row1 {
+  width: 100%;
+  height: 4vmax;
+  padding-left: 5%;
+}
+
+.row1icon,
+.row2icon,
+.row3icon {
+  width: 2vmax;
+  height: 2vmax;
+  float: left;
+  background-image: url(../img/icons/address.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.row1content,
+.row2content,
+.row3content {
+  float: left;
+  padding-left: 10%;
+}
+
+.row1content h3 {
+  font-weight: 300;
+  font-size: 1.2vmax;
+  line-height: 2vmax;
+}
+
+.w1row2,
+.w1row3 {
+  width: 100%;
+  height: 2vmax;
+  margin-top: 1vmax;
+  padding-left: 5%;
+}
+
+.row2icon {
+  background-image: url(../img/icons/phone.png);
+}
+
+.row2content a {
+  text-decoration: none;
+  color: black;
+}
+
+.row2content h3,
+.row3content h3 {
+  font-weight: 300;
+  font-size: 1.2vmax;
+  line-height: 2vmax;
+}
+
+.row3icon {
+  background-image: url(../img/icons/mail.png);
+}
+
+.w1section2 {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.w1section2 h1 {
+  font-weight: 400;
+  font-size: 2vmax;
+}
+
+.w1s2content {
+  width: 100%;
+  height: 70%;
+  margin-top: 10%;
+}
+
+.w2row1,
+.w2row2,
+.w2row3 {
+  width: 80%;
+  margin: auto;
+  font-size: 1.1vmax;
+  font-weight: 300;
+}
+
+.row1day,
+.row2day,
+.row3day {
+  width: 50%;
+  float: left;
+}
+
+.row1clock,
+.row2clock,
+.row3clock {
+  width: 50%;
+  float: left;
+  margin-bottom: 1vmax;
+}
+
+.w1section3 {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.w1section3 h1 {
+  font-weight: 400;
+  font-size: 2vmax;
+  text-align: center;
+}
+
+.s3button,
+.s3btn {
+  width: 50%;
+  height: 3vmax;
+  margin: auto;
+  margin-top: 10%;
+  background-color: #ecabed;
+}
+
+.s3button a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.2vmax;
+  line-height: 3vmax;
+}
+
+.s3button:hover {
+  transform: rotate(-5deg);
+  transition: 0.3s;
+}
+
+.s3socials {
+  width: 6vmax;
+  height: 2vmax;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.s3facebook {
+  width: 2vmax;
+  height: 2vmax;
+  float: left;
+  background-image: url(../img/icons/facebook.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.s3instagram {
+  width: 2vmax;
+  height: 2vmax;
+  float: left;
+  margin-left: 2vmax;
+  background-image: url(../img/icons/instagram.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper2 {
+  clear: both;
+  width: 100%;
+  height: 30vmax;
+  background-color: black;
+}
+
+.footer {
+  padding-top: 3.2vmax;
+  height: 4vmax;
+  background-color: #ecabed;
+}
+
+.footertitle,
+.footerad {
+  position: unset;
+  top: 50%;
+  margin-top: -2vmax;
+  margin-left: 15%;
+  width: 15%;
+  height: 2vmax;
+  font-size: 1.3vmax;
+  color: white;
+}
+
+@media screen and (orientation: portrait) {
+  .wrapper1 {
+    width: 90%;
+    height: 90vmax;
+  }
+  .w1section1 {
+    width: 100%;
+    height: 30%;
+  }
+  .w1section2 {
+    clear: both;
+    width: 100%;
+    height: 30%;
+    margin-top: 5%;
+  }
+  .w1section3 {
+    width: 100%;
+    height: 30%;
+    margin-top: 5%;
+  }
+  .w1section1 h1,
+  .w1section2 h1,
+  .w1section3 h1 {
+    font-size: 3vmax;
+  }
+  .w1row2,
+  .w1row3 {
+    margin-top: 5%;
+  }
+  .row1content h3,
+  .row2content h3,
+  .row3content h3 {
+    font-size: 1.8vmax;
+  }
+  .w2row1,
+  .w2row2,
+  .w2row3 {
+    font-size: 1.8vmax;
+  }
+  .w1section3 h1 {
+    float: left;
+    margin-bottom: 5%;
+  }
+  .s3button {
+    clear: both;
+    width: 40%;
+    height: 4vmax;
+    margin: unset;
+  }
+  .s3button a {
+    font-size: 1.8vmax;
+    line-height: 4vmax;
+  }
+  .s3socials {
+    width: 10vmax;
+    height: 4vmax;
+    margin: unset;
+    margin-top: 5%;
+  }
+  .s3facebook,
+  .s3instagram {
+    width: 4vmax;
+    height: 4vmax;
+  }
+  .footertitle,
+  .footerad {
+    width: 30%;
+  }
+}

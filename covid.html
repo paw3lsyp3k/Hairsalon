@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <title>Salon</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="./css/covid.css" />
+       <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+       />
+    </head>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <img src="img/logo2b.png">
+        </div>
+        <nav>
+            <input type="checkbox" id="nav" class="hidden" />
+    <label for="nav" class="nav-btn">
+      <i></i>
+      <i></i>
+      <i></i>
+    </label>
+    <div class="nav-wrapper" id="menu">
+        <ul>
+          <li><a href="index.html" id="">Home</a></li>
+          <li><a href="offer.html" id="">Oferta</a></li>
+          <li><a href="gallery.html" id="">Galeria</a></li>
+          <li><a href="contact.html" id="">Kontakt</a></li>
+        </ul>
+      </div>
+        </nav>
+    </div>
+    <div class="wrapperc1">
+        <h1>COVID-19</h1>
+        <h3>Obecna sytuacja związana z ogólnoświatową pandemią wirusa dotyka nas wszystkich. Wirus zaskoczył
+            każdego jednak życie toczy się dalej...<br><br>
+            Ta strona ma za zadanie odpowiadać jedynie na najczęściej zadawane przez naszych klientów pytania,
+            w celu zapoznania się z aktualnymi obostrzeniami oraz sytuacją kierujemy na stronę MZ.
+        </h3>
+        <div class="covidrow">
+            <div class="covidask">Jak umówić się na wizytę w salonie?</div>
+            <div id="covidicon1" onclick="show1()"></div>
+            <div id="covidicon11" onclick="show7()"></div>
+        </div>
+        <div id="covidanswer1">
+            Na wizyty w naszym salonie nadal można umawiać się stacjonarnie jednak gorąco zachęcamy do robienia 
+            tego online przez serwis BOOKSY lub telefonicznie pod numerem podanym w zakładce "Kontakt". 
+        </div>
+        <div class="covidrow">
+            <div class="covidask">Co wziąć ze sobą na wizytę w salonie?</div>
+            <div id="covidicon2" onclick="show2()"></div>
+            <div id="covidicon22" onclick="show7()"></div>
+        </div>
+        <div id="covidanswer2">
+            Przy wizycie w naszym salonie należy pamiętać o konieczności załaniania ust i nosa, zalecamy zaopatrzenie
+            się w maseczkę ochronną, przyłbica może utrudniać naszą pracę. Zachęcamy Państwa również
+            do płatności bezgotówkowych. Posiadanie rękawiczek jest mile widziane.
+        </div>
+        <div class="covidrow">
+            <div class="covidask">Ile osób może przebywać w salonie?</div>
+            <div id="covidicon3" onclick="show3()"></div>
+            <div id="covidicon33" onclick="show7()"></div>
+        </div>
+        <div id="covidanswer3">
+            Zgodnie z obostrzeniami w naszym salonie może przebywać max 3 klientów jednocześnie.<br><br>
+            Wiąże się z tym nasza prośba aby przychodzić na wizyty punktualnie, gdyż w przypadku przyjścia 
+            przed czasem, nie ma możliwości zaczekania w poczekalni.
+        </div>
+        <div class="covidrow">
+            <div class="covidask">Czy wizyty w salonach są bezpieczne?</div>
+            <div id="covidicon4"onclick="show4()"></div>
+            <div id="covidicon44"onclick="show7()"></div>
+        </div>
+        <div id="covidanswer4">
+            Dokładamy wszelkich starań aby nasz salon był bardzo bezpiecznym miejscem. Przestrzegamy wszystkich
+            panujących obostrzeń, czego wymagamy również od klientów. Posiadamy stacje dezynfekcji, sterylizujemy narzędzia
+            oraz stanowiska przed każdą wizytą aby zmniejszyć ryzyko najbardziej jak to możliwe.
+        </div>
+        <div class="covidrow">
+            <div class="covidask">Czy oferujemy usługę fryzjera z dojazdem?</div>
+            <div id="covidicon5"onclick="show5()"></div>
+            <div id="covidicon55"onclick="show7()"></div>
+        </div>
+        <div id="covidanswer5">
+            Usługa ta nie gości na stałe w naszym cenniku, w szczególnych przypadkach istnieje taka możliwość jednak wszystkie 
+            szczegóły ustalamy indywidualnie. Zachęcamy jednak do wizyty w salonie.
+        </div>
+        <div class="covidrow">
+            <div class="covidask">Kiedy lepiej przełożyć wizytę w salonie?</div>
+            <div id="covidicon6"onclick="show6()"></div>
+            <div id="covidicon66"onclick="show7()"></div>
+        </div>
+        <div id="covidanswer6">
+            Wiemy jak ważny jest dla nas nasz wygląd, jednak jeszcze ważniejsze jest zdrowie- wasze oraz nasze.
+            Prosimy o odwołanie wizyty gdy widzimy u siebie objawy choroby, źle się czujemy, kiedy mamy na codzień styczność 
+            z osobami starszymi które są najbardziej narażone na działanie wirusa. Również zalecamy zostanie w domu w przypadku 
+            kontaktu z osobą zakażoną, niedawnego powrotu z miejsca, w którym możliwość zarażenia była wyższa. Pamiętajmy aby
+            szanować siebie na wzajem.
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footertitle">
+            Salon Fryzur "Aga"
+        </div>
+        <div class="footerad">Realizacja: <a href="#">sppweb.pl</a></div>
+    </div> 
+    <script src="./js/app.js"></script>
+</body>
+</html>

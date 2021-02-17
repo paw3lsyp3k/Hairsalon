@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.top {
+  border-bottom: 0.2vmax solid black;
+}
+
+.logo {
+  border-bottom: 0.2vmax solid black;
+}
+
+.wrapper1 {
+  width: 42%;
+  margin: auto;
+  height: 60vmax;
+  margin-top: 5%;
+}
+
+.rowtitle {
+  width: 100%;
+  height: 2vmax;
+  margin-bottom: 0.5vmax;
+}
+
+.servicetitle,
+.pricetitle,
+.service,
+.price {
+  width: 48%;
+  height: 1.6vmax;
+  float: left;
+  background-color: #ecabed;
+  color: white;
+  text-align: center;
+  font-size: 1.3vmax;
+}
+
+.servicetitle,
+.pricetitle {
+  height: 2vmax;
+  line-height: 2vmax;
+}
+
+.pricetitle,
+.price {
+  float: right;
+}
+
+.price,
+.service {
+  font-size: 0.9vmax;
+  color: black;
+  line-height: 1.6vmax;
+  background-color: white;
+}
+
+.w1row {
+  width: 100%;
+  height: 2vmax;
+  margin-top: 0.2vmax;
+}
+
+.w1rowspacer {
+  width: 100%;
+  margin-top: 0.2vmax;
+  height: 0.2vmax;
+  background-color: #ecabed;
+}
+
+.wrapper02 {
+  width: 100%;
+  padding-bottom: 5vmax;
+  padding-top: 3vmax;
+}
+
+.wrapper02 h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3vmax;
+  color: #ecabed;
+}
+
+.w2section1 {
+  width: 60%;
+  height: 20vmax;
+  margin: auto;
+}
+
+.section1card1,
+.section1card2,
+.section1card3 {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.section1card2,
+.section1card3 {
+  margin-left: 5%;
+}
+
+.card1icon,
+.card2icon,
+.card3icon {
+  width: 4vmax;
+  height: 4vmax;
+  margin: auto;
+  margin-top: 2vmax;
+  background-position: center;
+  background-size: cover;
+}
+
+.card1icon {
+  background-image: url(../img/icons/education.png);
+}
+
+.card2icon {
+  background-image: url(../img/icons/cake.png);
+}
+
+.card3icon {
+  background-image: url(../img/icons/date.png);
+}
+
+.card1content,
+.card2content,
+.card3content {
+  width: 90%;
+  margin: auto;
+  margin-top: 3vmax;
+  font-size: 1.2vmax;
+  text-align: center;
+}
+
+.card1content a,
+.card2content a,
+.card3content a {
+  color: #ecabed;
+}
+
+.footer {
+  padding-top: 3.2vmax;
+  height: 4vmax;
+  background-color: #ecabed;
+}
+
+.footertitle,
+.footerad {
+  position: unset;
+  top: 50%;
+  margin-top: -2vmax;
+  margin-left: 15%;
+  width: 15%;
+  height: 2vmax;
+  font-size: 1.3vmax;
+  color: white;
+}
+
+@media screen and (orientation: portrait) {
+  .wrapper1 {
+    width: 90%;
+    height: unset;
+  }
+  .rowtitle,
+  .w1row,
+  .price,
+  .service {
+    height: 4vmax;
+  }
+
+  .w1row {
+    margin-top: 0.4vmax;
+  }
+  .servicetitle,
+  .pricetitle {
+    height: 4vmax;
+    font-size: 2vmax;
+    line-height: 4vmax;
+  }
+  .price,
+  .service {
+    font-size: 1.5vmax;
+    line-height: 4vmax;
+  }
+  .wrapper02 {
+    padding-top: 20%;
+    padding-bottom: 4%;
+  }
+  .w2section1 {
+    width: 90%;
+    height: 50vmax;
+  }
+  .section1card1,
+  .section1card2,
+  .section1card3 {
+    width: 100%;
+    height: 33%;
+    margin-left: unset;
+  }
+  .card1icon,
+  .card2icon,
+  .card3icon {
+    width: 6vmax;
+    height: 6vmax;
+    float: left;
+    margin-left: 10%;
+  }
+  .card1content,
+  .card2content,
+  .card3content {
+    width: 70%;
+    float: right;
+    font-size: 1.4vmax;
+  }
+  .footertitle,
+  .footerad {
+    width: 30%;
+  }
+}
